@@ -38,8 +38,8 @@ links, encontrarán:
 - El user flow del MVP
 - El [diseño del app en Figma](https://www.figma.com/file/im1tb4vPyt9bMVlhzqlHIR/S02E01-App-Financiera?node-id=0%3A1)
   , con una guía de componentes y el [Prototipo navegable](https://marvelapp.com/1hj56576/screen/60926857).
-- Analytics de los primeros 6 meses del MVP `falta actualizar`
-- Data de uso del MVP de los primeros 6 meses `falta actualizar`
+- Analytics de los primeros 6 meses del MVP
+- Data de uso del MVP de los primeros 6 meses
 
 ## Objetivos de aprendizaje
 
