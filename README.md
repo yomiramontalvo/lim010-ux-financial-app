@@ -1,106 +1,191 @@
-# Aplicación financiera
+# Rediseño de la Aplicación Financiera BANQUI
+___
 
-## Preámbulo
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/50186958/65376070-39bae980-dc61-11e9-941f-c8aa12b2cd2c.png" alt="logo_banqui"/>
+</p>
 
-El banco más importante del país, siguiendo las tendencias de otros países, está
-planeando lanzar un banco 100% digital bajo otro nombe: "Banqui". Su principal
-objetivo es tener un banco que sea más cercano a las necesidades del público más
-joven del país. Para ello han venido piloteando un app con un número pequeño de
-usuarios. Los resultados de este piloto son mixtos, hay algunas cosas que han
-sido bien recibidas por los usuarios, y hay otras que se tienen que mejorar aún.
+<p align="center"> <strong>El Banco contigo a donde vayas</p>
 
-Para poder ayudarlos a entender mejor las necesidades de sus clientes y crear
-el mejor banco digital del país han decidido contratar a una consultora de UX,
-donde le han asignado este proyecto a ti y otra compañera de Laboratoria.
+## Índice
+___
+- [Introducción](#introducción)
+- [Objetivos del Proyecto](#objetivos-del-proyecto)
+- [Implementación](#implementación)
+- [Proceso UX](#proceso-UX)
+     1) [Descubrimiento e Investigación](#Descubrimiento-e-investigación)
+        - [Entrevista con el Cliente](#entrevista-con-el-cliente)
+        - [Entrevista con el Usuario](#entrevista-con-el-Usuario)
+        - [Benchmark](#benchmark)
+     2) [Síntesis y Definición](#Síntesis-y-Definición)
+        - [Affinity Map](#affinity-map)
+        - [User Persona](#user-persona)
+        - [Customer Journey Map](#customer-journey-map)
+        - [Definición del Producto](#definicion-del-producto)
+     3) [Ideación, Prototipado y User Testing](#ideación,-prototipado-y-user-testing)
+        - [Card Sorting](#card-sorting)
+        - [Prototipo (Rediseño)](#prototipo-(Rediseño))
+        - [User Testing](#user-testing)
+
+- [Conclusiones](#conclusiones)
+- [Enlaces](#enlaces)
+    
 
 ## Introducción
+---
+La transformación digital ha dejado de ser una opción para pasar a ser una necesidad real en el sector financiero, buscando ofrecer nuevos productos y soluciones para sus clientes que les permita tener opciones personalizadas, una mejor experiencia y sobre todo un control de sus operaciones bancarias desde sus teléfonos celulares.
 
-### Contexto
+Según datos de Emprende UP, uno de los segmentos de fintech que más rápido está creciendo en América Latina es el de bancos digitales, y representa una excelente oportunidad de expansión. Latinoamérica se presenta como un mercado con gran potencial para las fintech debido al significativo porcentaje de personas y pymes que no tienen acceso al sistema financiero tradicional. Así lo reporta el área del Estudios Económicos de la Asociación de Bancos del Perú (ASBANC). Actualmente en Perú, las entidades financieras están llevando a cabo procesos de transformación digital, para poder responder a las nuevas exigencias y necesidades de los usuarios. 
 
-Durante la primera semana de entendimiento de los requerimientos, el Product
-Manager les comparte las hipótesis y preguntas que tienen dentro del equipo:
+Es por ello, que el banco más importante del país, ha contratado nuestros servicios con la finalidad de rediseñar su aplicativo móvil "Banqui". El principal objetivo de nuestro cliente es tener un banco que sea más cercano a las necesidades del público más joven del país. En este sentido, nos entregaron los resultados de una investigación UX previa con un número pequeño de usuarios, para entender el contexto y ofrecerles una propuesta de valor a partir del rediseño del prototipo. 
 
-> Los usuarios que anteriormente han sido clientes de algún banco, nos comparan
-  con las aplicaciones de esos bancos, parece que hay cosas que extrañan.
+## Objetivos del Proyecto
+---
+- Rediseñar un aplicativo móvil financiero
+- Validar los user personas, a partir de entrevistas y testeo del producto
+- Identificar las fortalezas y debilidades de nuestro cliente
+- Aplicar herramientas de investigación dentro del proceso Design Thinking a fin de entender las necesidades de los usuarios
+- Priorizar los problemas identificados para definir las funcionalidades del MVP que será entregado
+- Entender el contexto del sector Fintech 
 
-> La aplicación que estamos probando es para iOS, sin embargo, para hacer un
-  lanzamiento nacional necesitamos crear un app para Android.
 
-> Nos falta acercarnos un poco más a los usuarios jóvenes, 100% digitales, los
-  que usan Netflix, Uber, Spotify, Instagram, entre otros.
+## Implementación
+---
+ Para realizar este proyecto, seleccionamos las siguientes actividades para llevar a cabo el rediseño del prototipo entregado por el cliente:
 
-### Recursos
+|Actividad|Descripción|Puntos|
+|:----|:---|:---:|
+|Entendimiento del problema, la industria y el contexto|Entender el contexto del negocio y lo que existe hoy en día respecto de la industria del proyecto.|30|
+ |Testeos del prototipo ya existente|Sesiones de testing de la solución ya existente con sus iteraciones con al menos 5 usuarios por sesión.|30|
+ |Entrevistas con cliente (Product Owner)|Realización de entrevistas con el cliente (dueño del reto) y establecimiento de sus metas y objetivos.|20|
+|Benchmark| Revisión de features de la competencia y referencias análogas. | 20 |
+|Entrevistas con usuarios| Entrevistas en profundidad con al menos 5 usuarios. | 60 | 
+|Card Sorting| Actividad para entender el modelo mental de los usuarios en términos de organización de los contenidos. | 15 |
+|Prototipado de alta fidelidad| Elaboración de prototipo en base a las pantallas diseñadas. | 80 | 
+|Testeos del prototipo propuesto| Sesiones de testing de la propuesta con sus iteraciones con al menos 5 usuarios por sesión.| 30 | 
+|| Total | 285|
 
-En esta carpeta de [Google Drive](https://drive.google.com/drive/folders/1etdcDyoN7C038ti_i4RhavK2DWEAc1yH?usp=sharing) y en los siguientes
-links, encontrarán:
+## Proceso UX
+En el rediseño de Banqui se realizaron actividades y se generaron entregables enmarcados en el Diseño centrado en el usuario y se pueden dividir en las siguientes etapas del proceso Design Thinking
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/50186958/64029800-ea264980-cb0a-11e9-8dfe-a76c13546ded.png"
+</p>
 
-- Los user personas
-- El user flow del MVP
-- El [diseño del app en Figma](https://www.figma.com/file/im1tb4vPyt9bMVlhzqlHIR/S02E01-App-Financiera?node-id=0%3A1)
-  , con una guía de componentes y el [Prototipo navegable](https://marvelapp.com/1hj56576/screen/60926857).
-- Analytics de los primeros 6 meses del MVP
-- Data de uso del MVP de los primeros 6 meses
+ 1) ### Descubrimiento e Investigación
 
-## Objetivos de aprendizaje
+#### Entrevista con el cliente
+El objetivo de la entrevista era conocer las fortalezas y debilidades del cliente, entender los objetivos del negocio y definir su público objetivo. En este sentido, conversamos con el Product Owner de Banqui Michael Gonzales. Entre los hallazgos más resaltantes tenemos:
+> Aumentar la satisfacción de los clientes con canales digitales y mejorar la experiencia del usuario de manera que sea simple, rápida y cotidiana.
 
-El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
-un producto ya existente. Es muy probable que termines trabajando en productos
-existentes y que para tener un buen entendimiento del problema, debas analizar
-data de ese producto y complementar esta data con investigación de campo. Para
-luego definir una estrategia de producto de acuerdo a los objetivos del negocio,
-pero sin dejar de lado los objetivos y necesidades de los usuarios. Puedes leer
-sobre el trabajo de un UX Designer en rediseño este [blogpost](https://blog.continuum.cl/preguntas-para-dejar-de-ser-ux-designer-y-empezar-a-ser-un-ux-redesigner-143e5467ec8d).
+> No solo ser un banco, sino ser un consejero de cliente. Tener mayor relación con el cliente.
 
-En este proyecto pondrás en práctica habilidades de: análisis de datos,
-investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño
-de componentes de la interfaz y user testing.
+> Que las ventas sea de manera contextual y personalizadas, según la data del cliente.
 
-## Consideraciones generales
+> Estar a la vanguardia de aplicativos que el cliente usa todo el dia, por ello que sea de forma intuitiva para el usuario.
 
-Como ya habrás notado, gran parte del trabajo de UX tiene relación con el
-desempeño de tus habilidades blandas. Estas habilidades nos acompañan a lo largo
-de cualquier proyecto y su desarrollo es clave para el éxito. Estas habilidades
-no sólo son utilizadas a la hora de entender al usuario, sino a lo largo de toda
-la ejecución, es decir desde cómo planificamos hasta nuestra presentación al
-cliente.
+> Para el 2020 buscamos ser la mejor APP del mercado peruano en Banca Móvil.
 
-Anteriormente, nos habíamos concentrado en el desarrollo de tu curiosidad y
-empatía, practicado cómo relacionarte con el cliente y el usuario. Siempre debes
-pensar quiénes son y qué necesitan, y no enfocarte en lo que tú consideras que
-podría ser la solución correcta. Se trata de entender que nosotros no somos el
-usuario, y debemos hacer el ejercicio empático de comprenderlo a él y a nuestro
-cliente.
+#### Análisis de la información entregada por el cliente
+Para entender la problemática de este proyecto, revisamos y analizamos la información que nos entregó nuestro cliente con el objetivo de validar la investigación previa del diseño entregado y encontrar oportunidades de mejoras para el rediseño de este aplicativo de la banca móvil.
 
-Este proyecto, a diferencia de otros, no debes partir desde cero generando un
-prototipo, sino investigar lo que el banco ya ha construido y en base a eso
-hacer una propuesta. Para esto, te aconsejamos comenzar por investigar
-la información que tienes; entender qué datos ya manejas y qué elementos
-necesitas averiguar para completar tu proyecto. De esta manera, tu planificación
-es muy relevante para comprender la problemática.
+   - Análisis de la Data Fintech
 
-Al planificar podrás comprender de qué manera estructurar tu proyecto y qué
-elementos debes investigar. Además, te permitirá trabajar de mejor manera con tu
-compañera, te aconsejamos que consideres tiempo para poder iterar sobre las
-posibilidades de mejora y también para preparar la presentación.
+![image](https://user-images.githubusercontent.com/50186958/65381703-81bb2a00-dcbc-11e9-8ba3-5b18d99ff9a1.png)
+ En el primer gráfico, pueden visualizar los App Units (número de descargas de la aplicación) durante seis (6) meses, encontrándose que Banqui creció los primeros 3 meses y en un rango de 100 App Units y luego se mantuvo estable. Mientras que el seguno gráfico, se observa que cada mes hubo mayor descarga de la App por primera vez durante los primeros 5 días, cercanos al día 15 y últimos días del mes.
 
-La calidad del proyecto depende totalmente de tu proactividad y autoaprendizaje,
-si no conoces plataformas financieras parte por investigar sobre ellas. No
-esperes que los contenidos lleguen a ti, más bien busca todo lo que necesites
-para poder encontrar la mejor solución.
+   - User Flow y User Persona
 
-Parte importante de tu trabajo como UX designer es tomar decisiones.
-Efectivamente existen múltiples herramientas que puedes utilizar, debes
-comprender para qué y con qué finalidad escoges usar cada una de ellas. Siempre
-piensa que debes justificar todo gasto con tu consultora y el cliente, cada
-decisión que tomes en el proyecto debe ser fundamentada, no sigas pasos
-mecánicos por seguirlos, cuestiónate constantemente.
+Luego, revisamos el _User Flow_ entregado por el cliente y decidimos testear con usuarios este diseño original con el fin de evaluar los flujos de navegación, analizar la heurística de usabilidad y verificar si es necesario reorganizar los elementos. Por otra parte, el Product Owner nos entregó dos (2)
+_User Personas_ el cuál validaremos en la entrevista con los usuarios, considerando a un público más joven.
 
-Por último, considera que la calidad de tu presentación es tan importante como
-el proceso completo. Un proyecto que no se aprecia al ser presentado no es un
-buen proyecto. Si vas a utilizar una slides frente a un cliente, se prolija en
-el diseño de ellos y en la información que entregas, también busca la mejor
-manera de mostrar tu demo y por sobre todo prueba antes de presentar frente al
-cliente.
+   - Testeo del prototipo original
+
+Se realizó una 1era sesión de testeo de forma presencial y online. Diseñamos 4 escenarios, a fin de evaluar el flujo de navegación del diseño original:
+
+      - El usuario debe registrarse o iniciar sesión
+      - El usuario debe crear una acción en la sección de ahorro
+      - El Usuario debe visualizar los detalles de gastos y últimos movimientos
+      - El Usuario debe llevar a cabo una operación
+   
+![image](https://user-images.githubusercontent.com/50186958/65381893-0bb8c200-dcc0-11e9-924c-f4e6af69dac8.png)      
+
+![1-testeo](https://user-images.githubusercontent.com/50186958/65381846-03ac5280-dcbf-11e9-9855-742f0d8db1fb.png)
+
+#### Entrevista con el Usuario
+Entrevistamos a seis (6) usuarios, con el objetivo de:
+- Conocer el contexto del problema en aplicativos financieros móviles 
+- Entender los requerimientos y necesidades del usuario en el sector bancario
+- Descubrir las motivaciones y frustraciones de los usuarios para validar User Personas
+
+Para ello, definimos el siguiente _(Usuario Target)_:
+
+_"Personas con un rango de edad de **20 a 55 años** que manejen **aplicaciones móviles**, con un estilo de vida moderna, progresista y formalista; y tengan los siguientes **comportamientos**: Buscando siempre ingresos extras. No tiene tiempo necesario para hacer las cosas, prefiere hacerlo de manera rápida. Impulsivos y no saben cómo gastar el dinero.”_
+![image](https://user-images.githubusercontent.com/50186958/65381966-9c43d200-dcc1-11e9-8abd-50e3df0f9ed0.png)
+
+Entre los hallazgos más importantes podemos destacar:
+> “Sería buenazo que la app de bcp tuviese la opción de ahorrar, que te permita establecer objetivos de ahorro, una cierta cantidad al mes”
+
+> “Mi banco ideal, debe ser seguro, práctico y fácil de manejar”
+
+> “Realizo operaciones bancarias a través del celular en cualquier momento”
+
+> “yo elijo un banco por las oportunidades que da, confianza y seguridad”
+
+> “Whatsapp, Facebook, Instagram y Netflix... me gustan porque son simples para usarlos y entenderlos, los uso para entretenerme y comunicarme, y son gratis“
+
+> “Me siento a gusto como mi banco me muestra mis operaciones y la descripción a detalle”
+
+
+#### Benchmark 
+Aplicamos esta técnica a dos aplicativos de bancos internacionales y dos aplicativos financieros nacionales; con la finalidad de observar y comparar otros productos y/o servicios, así como detectar las mejores prácticas a aplicar en nuestro proyecto de rediseño. 
+
+![benchmark](https://user-images.githubusercontent.com/50186958/65382000-2d1aad80-dcc2-11e9-9037-28dd360bf67f.png)
+
+2) ### Síntesis y Definición
+
+#### Affinity Map
+Con el fin de agrupar y segmentar las observaciones y los hallazgos más importantes de la entrevista de los usuarios se hizo un mapa de afinidad y se definieron 15 categorías, luego de realizar un _brainstorming_ o lluvia de ideas. Luego, priorizamos seis (6) temas, que nos ayudó a definir los problemas o necesidades de los usuarios.
+
+![A.M](https://user-images.githubusercontent.com/50186958/65382053-2a6c8800-dcc3-11e9-9e46-56d59c7d190a.png)
+
+#### User Persona
+![image](https://user-images.githubusercontent.com/50186958/65382177-b206c680-dcc4-11e9-86c0-98d273c28560.png)
+
+![image](https://user-images.githubusercontent.com/50186958/65382185-d5317600-dcc4-11e9-88c7-16410fe67aba.png)
+
+#### Customer Journey Map
+![image](https://user-images.githubusercontent.com/50186958/65382192-fabe7f80-dcc4-11e9-97df-358a0c3136da.png)
+
+#### Problem Statements
+![image](https://user-images.githubusercontent.com/50186958/65382230-918b3c00-dcc5-11e9-8a5e-d535f408d839.png)
+
+#### Definición del Producto
+![image](https://user-images.githubusercontent.com/50186958/65382239-cf886000-dcc5-11e9-88b4-67a6375e5a10.png)
+
+3) ### Ideación, Prototipado, User Testing 
+
+#### Card Sorting
+![image](https://user-images.githubusercontent.com/50186958/65382259-59382d80-dcc6-11e9-8801-a71de690848d.png)
+
+![image](https://user-images.githubusercontent.com/50186958/65382272-c21fa580-dcc6-11e9-84dd-727cdf8022b6.png)
+Resultados:
+Agrupación de contenidos
+Modelo mental de los usuarios
+
+#### Prototipo (Rediseño)
+   - Sketching
+
+   - Prototipo de Alta Fidelidad
+
+#### User Testing
+
+## Enlaces
+
++ [Prototipo de Alta Fidelidad](https://www.figma.com/file/UHAid76Np6pnXhXuSZ36pg/App-Financiera-Banqui?node-id=358%3A270) 
+
++ [Prototipo interactivo](https://marvelapp.com/599fejj)
+
++ [Video de presentación final y Demo](https://)
 
 ## Entrega
 
@@ -122,49 +207,6 @@ Un video en Loom de máximo 5 minutos explicando tu documento.
 En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
 agregar los documentos complementarios que sustenten tu proceso.
 
-### Hacker edition
-
-Para el hacker edition puedes elegir una o varias de estas opciones:
-
-- Antes de empezar a desarrollar este proyecto, lista cuáles fueron tus
-  aprendizajes durante el proyecto 1 y en qué cosas te gustaría mejorar durante 
-  el proyecto 2. Al terminar el proyecto 2 vuelve a esta lista y chequea cómo te 
-  fue con esos retos, ¿los cumpliste? Muestrános esta lista y esta reflexión
-  en un documento adicional (en el formato que prefieras).
-- En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
-  su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear
-  tu propia web desde 0. 
-- Escribe un post en Medium contando tu proceso de investigación.
-
-## Otras consideraciones
-
-### 1) Planeamiento y presupuesto
-
-En el reto con emprendimientos te entregamos una lista de tareas que podías
-realizar y le asignamos un valor en puntos a cada tarea. Además, te dimos un
-presupuesto de 300 puntos para que los utilices en esas tareas. Para este reto,
-la lista de tareas, el valor en puntos de cada tarea y el presupuesto total
-de las actividades a realizar lo crearás tú y lo tendrás que sustentar con tu
-coach. Adicinalmente, deberás sustentar con tu coach qué entregables harás
-llegar al banco al final de tu investigación y por qué. El coach te aprobará
-estos entregables o te dará feedback para mejorarlos.
-
-Cuando hagas tu presupuesto y pienses en los entregables recuerda que el tiempo
-de desarrollo de este proyecto es de dos semanas. También, recuerda qué partes
-te tomaron más tiempo en el desarrollo del proyecto 1 y los aprendizajes que
-tuviste al desarrollar el proyecto 1.
-
-### 2) Prototipo de alta fidelidad
-
-Existen varias herramientas que puedes utilizar para crear diseñar el producto,
-en este caso el diseño viene en Figma y el prototipo en Marvel, así que puedes
-seguir usando esas herramientas. Sin embargo, eres libre de utilizar otras
-como Adobe XD e Invision. Para el prototipo intenta utilizar Marvel o Invision,
-ya que para el testing tendrás que usar una herramienta llamada
-[Maze](https://maze.design/) que funciona mejor con estas.
-
-Recuerda que el diseño que trabajes debe seguir los fundamentos de diseño visual
-como: contraste, alineación, jerarquía, entre otros.
 
 ## Evaluación
 
