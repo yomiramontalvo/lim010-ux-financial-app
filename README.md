@@ -70,9 +70,10 @@ Es por ello, que el banco más importante del país, ha contratado nuestros serv
 ## Proceso UX
 
 En el rediseño de Banqui se realizaron actividades y se generaron entregables enmarcados en el Diseño centrado en el usuario y se pueden dividir en las siguientes etapas del proceso Design Thinking
-[enter image description here]![
-](https://lh3.googleusercontent.com/eYrm9pfgNVx2A_hohI1BCSO1piludKYt9w4LfdObG9tg4xpr0phd7lJfen1_VUwwAFn4iG9yAyX2 "DESIGN")
- 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/51206472/65466667-25274e80-de25-11e9-9fe9-bcda257877b1.png" 
+</p>
 
  1. ## Descubrimiento e Investigación
 
@@ -147,7 +148,7 @@ Entre los hallazgos más importantes podemos destacar:
 
 Aplicamos esta técnica a dos aplicativos de bancos internacionales y dos aplicativos financieros nacionales; con la finalidad de observar y comparar otros productos y/o servicios, así como detectar las mejores prácticas a aplicar en nuestro proyecto de rediseño. 
 
-<p align="center"> <img width= "100%" src= "https://user-images.githubusercontent.com/5018" </p>
+<p align="center"> <img width= "100%" src= "https://user-images.githubusercontent.com/51206472/65466342-260bb080-de24-11e9-92f6-4dbfe1ff2ea4.png" </p>
 
  2. ## Síntesis y Definición
 
