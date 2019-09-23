@@ -15,16 +15,18 @@ ___
 - [Proceso UX](#proceso-UX)
      1) [Descubrimiento e Investigación](#Descubrimiento-e-investigación)
         - [Entrevista con el Cliente](#entrevista-con-el-cliente)
+        - [Análisis de la información entregada por el cliente](#análisis-de-la-información-entregada-por-el-cliente)
         - [Entrevista con el Usuario](#entrevista-con-el-Usuario)
         - [Benchmark](#benchmark)
      2) [Síntesis y Definición](#Síntesis-y-Definición)
         - [Affinity Map](#affinity-map)
         - [User Persona](#user-persona)
         - [Customer Journey Map](#customer-journey-map)
+        - [Problem Statements](#problem-statements)
         - [Definición del Producto](#definicion-del-producto)
      3) [Ideación, Prototipado y User Testing](#ideación,-prototipado-y-user-testing)
         - [Card Sorting](#card-sorting)
-        - [Prototipo (Rediseño)](#prototipo-(Rediseño))
+        - [Prototipo Rediseñado](#prototipo-rediseñado)
         - [User Testing](#user-testing)
 
 - [Conclusiones](#conclusiones)
@@ -43,7 +45,7 @@ Es por ello, que el banco más importante del país, ha contratado nuestros serv
 ---
 - Rediseñar un aplicativo móvil financiero
 - Validar los user personas, a partir de entrevistas y testeo del producto
-- Identificar las fortalezas y debilidades de nuestro cliente
+- Identificar las fortalezas y debilidades de nuestro cliente respecto a la aplicación financiera.
 - Aplicar herramientas de investigación dentro del proceso Design Thinking a fin de entender las necesidades de los usuarios
 - Priorizar los problemas identificados para definir las funcionalidades del MVP que será entregado
 - Entender el contexto del sector Fintech 
@@ -66,14 +68,15 @@ Es por ello, que el banco más importante del país, ha contratado nuestros serv
 || Total | 285|
 
 ## Proceso UX
+
 En el rediseño de Banqui se realizaron actividades y se generaron entregables enmarcados en el Diseño centrado en el usuario y se pueden dividir en las siguientes etapas del proceso Design Thinking
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50186958/64029800-ea264980-cb0a-11e9-8dfe-a76c13546ded.png"
-</p>
+[enter image description here]![
+](https://lh3.googleusercontent.com/eYrm9pfgNVx2A_hohI1BCSO1piludKYt9w4LfdObG9tg4xpr0phd7lJfen1_VUwwAFn4iG9yAyX2 "DESIGN")
+ 
 
- 1) ### Descubrimiento e Investigación
+ 1. ## Descubrimiento e Investigación
 
-#### Entrevista con el cliente
+### Entrevista con el cliente
 El objetivo de la entrevista era conocer las fortalezas y debilidades del cliente, entender los objetivos del negocio y definir su público objetivo. En este sentido, conversamos con el Product Owner de Banqui Michael Gonzales. Entre los hallazgos más resaltantes tenemos:
 > Aumentar la satisfacción de los clientes con canales digitales y mejorar la experiencia del usuario de manera que sea simple, rápida y cotidiana.
 
@@ -85,20 +88,21 @@ El objetivo de la entrevista era conocer las fortalezas y debilidades del client
 
 > Para el 2020 buscamos ser la mejor APP del mercado peruano en Banca Móvil.
 
-#### Análisis de la información entregada por el cliente
+### Análisis de la información entregada por el cliente
+
 Para entender la problemática de este proyecto, revisamos y analizamos la [información](https://drive.google.com/drive/folders/1etdcDyoN7C038ti_i4RhavK2DWEAc1yH) que nos entregó nuestro cliente con el objetivo de validar la investigación previa del diseño entregado y encontrar oportunidades de mejoras para el rediseño de este aplicativo de la banca móvil.
 
-   - Análisis de la Data Fintech
+   - #### Análisis de la Data Fintech
 
 ![image](https://user-images.githubusercontent.com/50186958/65381703-81bb2a00-dcbc-11e9-8ba3-5b18d99ff9a1.png)
  En el primer gráfico, se puede visualizar los App Units (número de descargas de la aplicación) durante seis (6) meses, encontrándose que Banqui creció los primeros 3 meses y en un rango de 100 App Units y luego se mantuvo estable. Mientras que el segundo gráfico, se observa que cada mes hubo mayor descarga de la App por primera vez durante los primeros 5 días, cercanos al día 15 y últimos días del mes.
 
-   - User Flow y User Persona
+   -  #### User Flow y User Persona
 
 Luego, revisamos el _User Flow_ entregado por el cliente y decidimos testear con usuarios este diseño original con el fin de evaluar los flujos de navegación, analizar la heurística de usabilidad y verificar si es necesario reorganizar los elementos. Por otra parte, el Product Owner nos entregó dos (2)
 _User Personas_ el cuál validaremos en la entrevista con los usuarios, considerando a un público más joven.
 
-   - Testeo del prototipo original
+   - #### Testeo del prototipo original
 
 Se realizó una 1era sesión de testeo de forma presencial y online. Diseñamos 4 escenarios, a fin de evaluar el flujo de navegación del diseño original:
 
@@ -111,15 +115,15 @@ Se realizó una 1era sesión de testeo de forma presencial y online. Diseñamos 
 
 ![1-testeo](https://user-images.githubusercontent.com/50186958/65381846-03ac5280-dcbf-11e9-9855-742f0d8db1fb.png)
 
-#### Entrevista con el Usuario
+### Entrevista con el Usuario
 Entrevistamos a seis (6) usuarios, con el objetivo de:
 - Conocer el contexto del problema en aplicativos financieros móviles 
 - Entender los requerimientos y necesidades del usuario en el sector bancario
 - Descubrir las motivaciones y frustraciones de los usuarios para validar User Personas
 
-Para ello, definimos el siguiente _(Usuario Target)_:
+Para ello, definimos el siguiente _**(Usuario Target)**_:
 
-"Personas con un rango de edad de 20 a 55 años que manejen aplicaciones móviles, con un estilo de vida moderna, progresista y formalista; y tengan los siguientes comportamientos: Buscando siempre ingresos extras. No tiene tiempo necesario para hacer las cosas, prefiere hacerlo de manera rápida. Impulsivos y no saben cómo gastar el dinero.”
+> "Personas con un rango de edad de 20 a 55 años que manejen aplicaciones móviles, con un estilo de vida moderna, progresista y formalista; y tengan los siguientes comportamientos: Buscando siempre ingresos extras. No tiene tiempo necesario para hacer las cosas, prefiere hacerlo de manera rápida. Impulsivos y no saben cómo gastar el dinero.”
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/50186958/65381966-9c43d200-dcc1-11e9-8abd-50e3df0f9ed0.png" 
@@ -139,19 +143,20 @@ Entre los hallazgos más importantes podemos destacar:
 > “Me siento a gusto como mi banco me muestra mis operaciones y la descripción a detalle”
 
 
-#### Benchmark 
+### Benchmark 
+
 Aplicamos esta técnica a dos aplicativos de bancos internacionales y dos aplicativos financieros nacionales; con la finalidad de observar y comparar otros productos y/o servicios, así como detectar las mejores prácticas a aplicar en nuestro proyecto de rediseño. 
 
-<p align="center"> <img width= "100%" src= "https://user-images.githubusercontent.com/50186958/65382000-2d1aad80-dcc2-11e9-9037-28dd360bf67f.png" </p>
+<p align="center"> <img width= "100%" src= "https://user-images.githubusercontent.com/5018![enter image description here](https://picasaweb.google.com/101301547862296098237/6739951255033478817#6739951256897889090)6958/65382000-2d1aad80-dcc2-11e9-9037-28dd360bf67f.png" </p>
 
-2) ### Síntesis y Definición
+ 2. ## Síntesis y Definición
 
-#### Affinity Map
+### Affinity Map
 Con el fin de agrupar y segmentar las observaciones y los hallazgos más importantes de la entrevista de los usuarios se hizo un mapa de afinidad y se definieron 15 categorías, luego de realizar un _brainstorming_ o lluvia de ideas. Luego, priorizamos seis (6) temas, que nos ayudó a definir los problemas o necesidades de los usuarios.
 
 <p align="center"> <img src= "https://user-images.githubusercontent.com/50186958/65382053-2a6c8800-dcc3-11e9-9e46-56d59c7d190a.png" </p>
 
-#### User Persona
+### User Persona
 Luego de las entrevistas y testeos a los usuarios, y considerando las categorías más resaltantes en el _affinity map_, que nos permitió identificar las necesidades y exigencias de los usuarios, decidimos modificar a los _User Persona_ iniciales y seleccionamos a _Daniel García_ como User Persona Principal y a _Andrea Sánchez_ como User Persona Secundario
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/50186958/65382177-b206c680-dcc4-11e9-86c0-98d273c28560.png" </p>
@@ -159,44 +164,63 @@ Luego de las entrevistas y testeos a los usuarios, y considerando las categoría
 <p align="center"> <img src="https://user-images.githubusercontent.com/50186958/65382185-d5317600-dcc4-11e9-88c7-16410fe67aba.png"</p> 
 
 
-#### Customer Journey Map
+### Customer Journey Map
 
 Para evaluar las emociones de nuestro _User Persona Principal_ cuando utiliza la aplicación financiera Banqui; representamos en este __Customer Journey Map__ sus interacciones en cada una de las etapas (touchpoints) del proceso, donde se destacan los pain points.
 
 <p align="center"> <img src= "https://user-images.githubusercontent.com/50186958/65382192-fabe7f80-dcc4-11e9-97df-358a0c3136da.png"</p>
 
-#### Problem Statements
+### Problem Statements
+
 Una vez, que tenemos a nuestros User Personas y sabemos las necesidades que tienen, podemos definir los problemas que podemos que resolver con nuestro producto. Definimos doce (12) Problem Statements y priorizamos los siguientes: 
 
 <p align= "center"> <img src= "https://user-images.githubusercontent.com/50186958/65382230-918b3c00-dcc5-11e9-8a5e-d535f408d839.png"</p>
 
-#### Definición del Producto
-
+### Definición del Producto
 Luego, de definir nuestro List of Features, partiendo de los Problem Statements, pensando en posibles soluciones (How might we), y con ayuda del Benchmark y la lluvia de ideas _(brainstorm)_, procedemos a priorizar las funcionalidades que tendrá nuestro Producto Mínimo Viable (por sus siglas en inglés, MVP), enfocándonos en lo Esencial y Bajo Costo, representandose en el siguiente gráfico.
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/50186958/65382239-cf886000-dcc5-11e9-88b4-67a6375e5a10.png"</p>
 
-3) ### Ideación, Prototipado, User Testing 
+ 3. ## Ideación, Prototipado, User Testing
 
-#### Card Sorting
+### Card Sorting
 
 En la fase de Ideación, utilizamos esta técnica para organizar y categorizar los temas y/o elementos que forman parte de Banqui, a partir del entendimiento del modelo mental de los usuarios. Lo llevamos a cabo de forma online y presencial con 13 usuarios. Cómo resultado, obtuvimos la siguientes agrupaciones o tendencias representados en un cluster o dendograma. Esto nos permitió definir nuestra arquitectura de información y estructurar el flujo de navegación del usuario
 
 <p align= "center"> <img src="https://user-images.githubusercontent.com/50186958/65382259-59382d80-dcc6-11e9-8801-a71de690848d.png" </p>
-  
+
 <p align= "center"> <img src="https://user-images.githubusercontent.com/50186958/65382272-c21fa580-dcc6-11e9-84dd-727cdf8022b6.png" </p>
 
 
-#### Prototipo (Rediseño)
-   
-   - Sketching
+### Prototipo Rediseñado
 
-<p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455426-d53c8d80-de0c-11e9-94e4-9fcd17f2b367.png" </p>
+  #### **Sketching**
+
+ Se realizó el Sketching para las pantallas a implementar que consistió en la pantalla de Inicio, la pantalla de Gastos, la pantalla de Ahorros. Se realizó de la siguiente manera:
+  
+  <p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455426-d53c8d80-de0c-11e9-94e4-9fcd17f2b367.png" </p>
  
-<p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455508-fbfac400-de0c-11e9-8b6e-e6438a756ffa.png" </p>
-   - Prototipo de Alta Fidelidad
 
-#### User Testing
+<p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455508-fbfac400-de0c-11e9-8b6e-e6438a756ffa.png" </p>
+
+Luego de realizar el prototipo de Baja fidelidad se obtuvieron los siguientes resultados: 
+
+-   No se entiende la similitud entre “Metas de ahorro” y “Ahorro”
+    
+-   No se comprende el significado de “Pagos por vencer”
+    
+-   Favoritos tiene mayor relación con Pagos frecuentes
+    
+-   No comprende los Breadcrumbs
+
+#### **Prototipo de Alta Fidelidad**
+
+![enter image description here](https://lh3.googleusercontent.com/7zbtnP93c1l_QxwRL6UIInfIsCeHtQxW0X4pQwLaC-MvyqJEcWD4e5m0J_gKFF_pyZBeii5viaza=s700 "Banqui")
+![enter image description here](https://lh3.googleusercontent.com/4UMVxk5Rqz3glWlolZv3yWYc3f-HZsDUY6EFRRad3-IL_hSdqBxH0MStoUlrp2Q0sUke9c85xjDm=s700 "proto de alta")
+
+#### **User Testing**
+
+Se realizó el testeo para la iteración del prototipo de alta finalidad y se obtuvieron los siguientes resultados.
 
 <p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455348-a6beb280-de0c-11e9-9797-4d157b925a4a.png" </p>
 
