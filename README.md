@@ -5,7 +5,7 @@ ___
   <img src="https://user-images.githubusercontent.com/50186958/65376070-39bae980-dc61-11e9-941f-c8aa12b2cd2c.png" alt="logo_banqui"/>
 </p>
 
-<p align="center"> <strong>El Banco contigo a donde vayas</p>
+<p align="center"> <strong>El Banco contigo a donde vayas</strong></p>
 
 ## Índice
 ___
@@ -160,6 +160,7 @@ Luego de las entrevistas y testeos a los usuarios, y considerando las categoría
 
 
 #### Customer Journey Map
+
 Para evaluar las emociones de nuestro _User Persona Principal_ cuando utiliza la aplicación financiera Banqui; representamos en este __Customer Journey Map__ sus interacciones en cada una de las etapas (touchpoints) del proceso, donde se destacan los pain points.
 
 <p align="center"> <img src= "https://user-images.githubusercontent.com/50186958/65382192-fabe7f80-dcc4-11e9-97df-358a0c3136da.png"</p>
@@ -170,6 +171,7 @@ Una vez, que tenemos a nuestros User Personas y sabemos las necesidades que tien
 <p align= "center"> <img src= "https://user-images.githubusercontent.com/50186958/65382230-918b3c00-dcc5-11e9-8a5e-d535f408d839.png"</p>
 
 #### Definición del Producto
+
 Luego, de definir nuestro List of Features, partiendo de los Problem Statements, pensando en posibles soluciones (How might we), y con ayuda del Benchmark y la lluvia de ideas _(brainstorm)_, procedemos a priorizar las funcionalidades que tendrá nuestro Producto Mínimo Viable (por sus siglas en inglés, MVP), enfocándonos en lo Esencial y Bajo Costo, representandose en el siguiente gráfico.
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/50186958/65382239-cf886000-dcc5-11e9-88b4-67a6375e5a10.png"</p>
@@ -181,11 +183,12 @@ Luego, de definir nuestro List of Features, partiendo de los Problem Statements,
 En la fase de Ideación, utilizamos esta técnica para organizar y categorizar los temas y/o elementos que forman parte de Banqui, a partir del entendimiento del modelo mental de los usuarios. Lo llevamos a cabo de forma online y presencial con 13 usuarios. Cómo resultado, obtuvimos la siguientes agrupaciones o tendencias representados en un cluster o dendograma. Esto nos permitió definir nuestra arquitectura de información y estructurar el flujo de navegación del usuario
 
 <p align= "center"> <img src="https://user-images.githubusercontent.com/50186958/65382259-59382d80-dcc6-11e9-8801-a71de690848d.png" </p>
-
+  
 <p align= "center"> <img src="https://user-images.githubusercontent.com/50186958/65382272-c21fa580-dcc6-11e9-84dd-727cdf8022b6.png" </p>
 
 
 #### Prototipo (Rediseño)
+   
    - Sketching
 
 <p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455426-d53c8d80-de0c-11e9-94e4-9fcd17f2b367.png" </p>
