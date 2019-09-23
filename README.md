@@ -152,9 +152,12 @@ Aplicamos esta técnica a dos aplicativos de bancos internacionales y dos aplica
  2. ## Síntesis y Definición
 
 ### Affinity Map
+
 Con el fin de agrupar y segmentar las observaciones y los hallazgos más importantes de la entrevista de los usuarios se hizo un mapa de afinidad y se definieron 15 categorías, luego de realizar un _brainstorming_ o lluvia de ideas. Luego, priorizamos seis (6) temas, que nos ayudó a definir los problemas o necesidades de los usuarios.
 
 <p align="center"> <img src= "https://user-images.githubusercontent.com/50186958/65382053-2a6c8800-dcc3-11e9-9e46-56d59c7d190a.png" </p>
+
++ [Enlace a Miro](https://miro.com/welcomeonboard/JpJdNVEBBCO8we0R1AB2BIxUDFpt8Zf9YhVSkwtZz0sBgTMsySzgG9DHg8LDpx1v) 
 
 ### User Persona
 Luego de las entrevistas y testeos a los usuarios, y considerando las categorías más resaltantes en el _affinity map_, que nos permitió identificar las necesidades y exigencias de los usuarios, decidimos modificar a los _User Persona_ iniciales y seleccionamos a _Daniel García_ como User Persona Principal y a _Andrea Sánchez_ como User Persona Secundario
@@ -233,4 +236,4 @@ Se realizó el testeo para la iteración del prototipo de alta finalidad y se ob
 
 + [Video de presentación final y Demo](https://www.loom.com/share/c198dcfe2cf047a9ae60768571aa9eda)
 
-+ [Sustento de la investigación](https://drive.google.com/drive/folders/1yY_XjgBHqK89fgebv4e_od2rB1aK3bcZ?usp=sharing)
++ [Sustento de la investigación](https://drive.google.com/drive/folders/1sGndxLis0y2i-aXm0EhRGiggG1XytTiM?usp=sharing)
