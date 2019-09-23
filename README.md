@@ -188,9 +188,15 @@ En la fase de Ideación, utilizamos esta técnica para organizar y categorizar l
 #### Prototipo (Rediseño)
    - Sketching
 
+<p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455426-d53c8d80-de0c-11e9-94e4-9fcd17f2b367.png" </p>
+ 
+<p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455508-fbfac400-de0c-11e9-8b6e-e6438a756ffa.png" </p>
    - Prototipo de Alta Fidelidad
 
 #### User Testing
+
+<p align= "center"> <img src="https://user-images.githubusercontent.com/51206472/65455348-a6beb280-de0c-11e9-9797-4d157b925a4a.png" </p>
+
 
 ## Enlaces
 
@@ -198,66 +204,6 @@ En la fase de Ideación, utilizamos esta técnica para organizar y categorizar l
 
 + [Prototipo interactivo](https://marvelapp.com/599fejj)
 
-+ [Video de presentación final y Demo](https://)
++ [Video de presentación final y Demo](https://www.loom.com/share/c198dcfe2cf047a9ae60768571aa9eda)
 
-## Entrega
-
-El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
-lo siguiente:
-
-README.md  detallando:
-
-* Objetivos iniciales del proyecto
-* Problemas encontrados tanto a nivel de negocio como a nivel de usuario
-* Recomendaciones de próximos pasos para el banco con respecto al app
-* De acuerdo al punto anterior, de requerirse cambios y desarrollos nuevos,
-  estos deberán ser diseñados y entregados en un prototipo de alta definición.
-
-Un video en Loom de máximo 5 minutos explicando tu documento.
-* Estos 5 minutos tienes que utilizarlos para explicar los puntos indicados en
-  el `README.md` y para hacer un demo de la solución propuesta.
-
-En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
-agregar los documentos complementarios que sustenten tu proceso.
-
-
-## Evaluación
-
-Recuerda revisar la rúbrica para ver la descripción detallada de cada habilidad
-y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
-que deberías alcanzar al finalizar este proyecto:
-
-### Habilidades Blandas
-
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| **Autogestión**                               |
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
-| Trabajo en equipo            | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
-
-### UX
-
-| Habilidad                      | Nivel esperado |
-|--------------------------------|----------------|
-| **Research**                                    |
-| User centricity                | 4              |
-| Entrevistas                    | 3              |
-| Testing                        | 3              |
-| Planeamiento y ejecución       | 3              |
-| Síntesis de resultados         | 3              |
-| **Interaction design**                          |
-| Diseño de interacción          | 3              |
-| Arquitectura de la información | 3              |
-| Prototyping                    | 3              |
-| **Visual design**                               |
-| Visual Design                  | 3              |
-| **Business mindset**                            |
-| Business mindset               | 3              |
++ [Sustento de la investigación](https://drive.google.com/drive/folders/1yY_XjgBHqK89fgebv4e_od2rB1aK3bcZ?usp=sharing)
