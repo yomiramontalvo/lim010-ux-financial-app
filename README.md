@@ -147,7 +147,7 @@ Entre los hallazgos más importantes podemos destacar:
 
 Aplicamos esta técnica a dos aplicativos de bancos internacionales y dos aplicativos financieros nacionales; con la finalidad de observar y comparar otros productos y/o servicios, así como detectar las mejores prácticas a aplicar en nuestro proyecto de rediseño. 
 
-<p align="center"> <img width= "100%" src= "https://user-images.githubusercontent.com/5018![enter image description here](https://picasaweb.google.com/101301547862296098237/6739951255033478817#6739951256897889090)6958/65382000-2d1aad80-dcc2-11e9-9037-28dd360bf67f.png" </p>
+<p align="center"> <img width= "100%" src= "https://user-images.githubusercontent.com/5018" </p>
 
  2. ## Síntesis y Definición
 
